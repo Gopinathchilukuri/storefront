@@ -26,7 +26,9 @@ public class SigninController implements Controller{
       if (userName != null)
       {
       	// TODO call SigninService checkUserExistance
-      	//TODO if it is there return true.
+      
+        
+        //TODO if it is there return true.
         result = "Hello, " + userName + "!";
       }
 	// TODO return to home page
