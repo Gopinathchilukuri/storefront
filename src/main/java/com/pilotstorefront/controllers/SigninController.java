@@ -30,7 +30,7 @@ public class SigninController implements Controller{
         result = "Hello, " + userName + "!";
       }
 	// TODO return to home page
-	// add  Objects or data to the MOdelView Objjects.
+	// add  Objects or data to the MOdelView Objects.
       ModelAndView view = new ModelAndView("user_home");
       view.addObject("greeting", result);
       return view;
