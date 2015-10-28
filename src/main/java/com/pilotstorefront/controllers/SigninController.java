@@ -26,7 +26,9 @@ public class SigninController implements Controller{
       if (userName != null)
       {
       	// TODO call SigninService checkUserExistance
-      system.out.println("something error");
+      //compile time error
+      userName.collect();
+      
         
         //TODO if it is there return true.
         result = "Hello, " + userName + "!";
