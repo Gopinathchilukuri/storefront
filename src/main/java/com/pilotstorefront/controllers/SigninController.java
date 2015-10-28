@@ -21,13 +21,13 @@ public class SigninController implements Controller{
    {
       String userName = request.getParameter("user");
       String password = request.getParameter("password");
-       userName.collect();
+      
       String result = "";
       if (userName != null)
       {
       	// TODO call SigninService checkUserExistance
       //compile time error
-      userName.collect();
+     
       
         
         //TODO if it is there return true.
