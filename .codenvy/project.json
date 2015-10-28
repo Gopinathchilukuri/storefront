@@ -1,1 +1,1 @@
-{"builders":{"configs":{},"default":"maven"},"mixinTypes":[],"runners":{"configs":{"recommend":{"ram":256,"variables":{},"options":{}}},"default":"system:/java/web/tomcat7"},"type":"maven","attributes":{"languageVersion":["1.6"],"language":["java"]}}
+{"builders":{"configs":{},"default":"maven"},"mixinTypes":["contribution"],"runners":{"configs":{"recommend":{"ram":256,"variables":{},"options":{}}},"default":"system:/java/web/tomcat7"},"type":"maven","attributes":{"contribute_branch":["master"],"languageVersion":["1.6"],"contribute_mode":["contribute"],"language":["java"]}}
